@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\All personal work\Angular\planets\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! E:\All personal work\Angular\bookstore\src\polyfills.ts */"hN/g");
 
 
 /***/ }),
