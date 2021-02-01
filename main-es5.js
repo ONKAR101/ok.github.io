@@ -877,7 +877,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       },
       decls: 6,
       vars: 0,
-      consts: [["id", "modal", 2, "display", "none", 3, "click"], [1, "container", 2, "margin", "0px 0px 0px -150px"], ["align", "start", "mat-button", "", "mat-dialog-close", "", 1, "close"], ["width", "70%", "height", "100%", 2, "position", "absolute", 3, "src"], ["text", ""]],
+      consts: [["id", "modal", 2, "display", "none", 3, "click"], [1, "container"], ["align", "start", "mat-button", "", "mat-dialog-close", "", 1, "close"], ["width", "70%", "height", "100%", 3, "src"], ["text", ""]],
       template: function ShowfilrComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p", 0);
@@ -902,7 +902,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       },
       directives: [_angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__["MatDialogClose"]],
-      styles: [".mat-dialog-container[_ngcontent-%COMP%] {\r\n    display: block;\r\n    padding: 24px;\r\n    border-radius: 4px;\r\n    box-sizing: border-box;\r\n    overflow: auto;\r\n    outline: 0;\r\n    width: 76%;\r\n    height: 100%;\r\n    min-height: inherit;\r\n    max-height: inherit;\r\n    \r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZGlhbG9nL3Nob3dmaWxyL3Nob3dmaWxyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxjQUFjO0lBQ2QsYUFBYTtJQUNiLGtCQUFrQjtJQUNsQixzQkFBc0I7SUFDdEIsY0FBYztJQUNkLFVBQVU7SUFDVixVQUFVO0lBQ1YsWUFBWTtJQUNaLG1CQUFtQjtJQUNuQixtQkFBbUI7O0FBRXZCIiwiZmlsZSI6InNyYy9hcHAvZGlhbG9nL3Nob3dmaWxyL3Nob3dmaWxyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubWF0LWRpYWxvZy1jb250YWluZXIge1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICBwYWRkaW5nOiAyNHB4O1xyXG4gICAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG4gICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICAgIG92ZXJmbG93OiBhdXRvO1xyXG4gICAgb3V0bGluZTogMDtcclxuICAgIHdpZHRoOiA3NiU7XHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgICBtaW4taGVpZ2h0OiBpbmhlcml0O1xyXG4gICAgbWF4LWhlaWdodDogaW5oZXJpdDtcclxuICAgIFxyXG59Il19 */"]
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2RpYWxvZy9zaG93Zmlsci9zaG93Zmlsci5jb21wb25lbnQuY3NzIn0= */"]
     });
     /*@__PURE__*/
 
