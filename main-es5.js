@@ -877,7 +877,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       },
       decls: 6,
       vars: 0,
-      consts: [["id", "modal", 2, "display", "none", 3, "click"], [1, "container"], ["align", "start", "mat-button", "", "mat-dialog-close", "", 1, "close"], ["width", "70%", "height", "100%", 3, "src"], ["text", ""]],
+      consts: [["id", "modal", 2, "display", "none", 3, "click"], [1, "container"], ["align", "start", "mat-button", "", "mat-dialog-close", "", 1, "close"], ["width", "70%", "height", "100%", 2, "position", "absolute", 3, "src"], ["text", ""]],
       template: function ShowfilrComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p", 0);
@@ -902,7 +902,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       },
       directives: [_angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__["MatDialogClose"]],
-      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2RpYWxvZy9zaG93Zmlsci9zaG93Zmlsci5jb21wb25lbnQuY3NzIn0= */"]
+      styles: [".mat-dialog-container[_ngcontent-%COMP%] {\r\n    display: block;\r\n    padding: 24px;\r\n    border-radius: 4px;\r\n    box-sizing: border-box;\r\n    overflow: auto;\r\n    outline: 0;\r\n    width: 76%;\r\n    height: 100%;\r\n    min-height: inherit;\r\n    max-height: inherit;\r\n    \r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZGlhbG9nL3Nob3dmaWxyL3Nob3dmaWxyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxjQUFjO0lBQ2QsYUFBYTtJQUNiLGtCQUFrQjtJQUNsQixzQkFBc0I7SUFDdEIsY0FBYztJQUNkLFVBQVU7SUFDVixVQUFVO0lBQ1YsWUFBWTtJQUNaLG1CQUFtQjtJQUNuQixtQkFBbUI7O0FBRXZCIiwiZmlsZSI6InNyYy9hcHAvZGlhbG9nL3Nob3dmaWxyL3Nob3dmaWxyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubWF0LWRpYWxvZy1jb250YWluZXIge1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICBwYWRkaW5nOiAyNHB4O1xyXG4gICAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG4gICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICAgIG92ZXJmbG93OiBhdXRvO1xyXG4gICAgb3V0bGluZTogMDtcclxuICAgIHdpZHRoOiA3NiU7XHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgICBtaW4taGVpZ2h0OiBpbmhlcml0O1xyXG4gICAgbWF4LWhlaWdodDogaW5oZXJpdDtcclxuICAgIFxyXG59Il19 */"]
     });
     /*@__PURE__*/
 
@@ -1313,47 +1313,37 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var jquery__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! jquery */
-    "../node_modules/jquery/dist/jquery.js");
-    /* harmony import */
-
-
-    var jquery__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_1__);
-    /* harmony import */
-
-
-    var _dialog_showfilr_showfilr_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    var _dialog_showfilr_showfilr_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! ../dialog/showfilr/showfilr.component */
     "./src/app/dialog/showfilr/showfilr.component.ts");
     /* harmony import */
 
 
-    var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/forms */
     "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
     /* harmony import */
 
 
-    var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/router */
     "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
     /* harmony import */
 
 
-    var _submit_event_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var _submit_event_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ../submit-event.service */
     "./src/app/submit-event.service.ts");
     /* harmony import */
 
 
-    var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! @angular/material/dialog */
     "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/dialog.js");
     /* harmony import */
 
 
-    var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! @angular/common */
     "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 
@@ -1513,7 +1503,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             image: [''],
             files: ['']
           });
-          var obj = jquery__WEBPACK_IMPORTED_MODULE_1__["parseJSON"](localStorage.getItem("formdata"));
+          var obj = JSON.parse(localStorage.getItem("formdata"));
           var t = JSON.parse(obj[0]);
 
           for (var i = 0; i < obj.length; i++) {
@@ -1527,7 +1517,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         key: "SeeFiles",
         value: function SeeFiles(f) {
           this.uploadservice.sendFile(f);
-          this.dialog.open(_dialog_showfilr_showfilr_component__WEBPACK_IMPORTED_MODULE_2__["ShowfilrComponent"]);
+          this.dialog.open(_dialog_showfilr_showfilr_component__WEBPACK_IMPORTED_MODULE_1__["ShowfilrComponent"]);
         }
       }]);
 
@@ -1535,7 +1525,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }();
 
     VisitersListComponent.ɵfac = function VisitersListComponent_Factory(t) {
-      return new (t || VisitersListComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormBuilder"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_submit_event_service__WEBPACK_IMPORTED_MODULE_5__["SubmitEventService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_material_dialog__WEBPACK_IMPORTED_MODULE_6__["MatDialog"]));
+      return new (t || VisitersListComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_submit_event_service__WEBPACK_IMPORTED_MODULE_4__["SubmitEventService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_material_dialog__WEBPACK_IMPORTED_MODULE_5__["MatDialog"]));
     };
 
     VisitersListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
@@ -1577,7 +1567,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.form_val);
         }
       },
-      directives: [_angular_common__WEBPACK_IMPORTED_MODULE_7__["NgForOf"]],
+      directives: [_angular_common__WEBPACK_IMPORTED_MODULE_6__["NgForOf"]],
       styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Zpc2l0ZXJzLWxpc3QvdmlzaXRlcnMtbGlzdC5jb21wb25lbnQuY3NzIn0= */"]
     });
     /*@__PURE__*/
@@ -1592,13 +1582,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }], function () {
         return [{
-          type: _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormBuilder"]
+          type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"]
         }, {
-          type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]
+          type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]
         }, {
-          type: _submit_event_service__WEBPACK_IMPORTED_MODULE_5__["SubmitEventService"]
+          type: _submit_event_service__WEBPACK_IMPORTED_MODULE_4__["SubmitEventService"]
         }, {
-          type: _angular_material_dialog__WEBPACK_IMPORTED_MODULE_6__["MatDialog"]
+          type: _angular_material_dialog__WEBPACK_IMPORTED_MODULE_5__["MatDialog"]
         }];
       }, null);
     })();
